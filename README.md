@@ -2,4 +2,5 @@
 Haptic CPR First Aid Guidance Application
 
 
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/RyDlcya/0.jpg)](https://www.youtube.com/watch?v=RyDlcya)
+[![demo_vid](https://img.youtube.com/vi/RyDlcya-Grg/0.jpg)](https://www.youtube.com/watch?v=RyDlcya-Grg)
+
