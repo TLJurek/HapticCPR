@@ -7,14 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C740168F22553B2E00F67B40 /* VisualGuidance.swift in Sources */ = {isa = PBXBuildFile; fileRef = C740168E22553B2E00F67B40 /* VisualGuidance.swift */; };
+		C740169322556B7000F67B40 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C740169222556B7000F67B40 /* SettingsViewController.swift */; };
+		C740169722556C1E00F67B40 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = C740169622556C1E00F67B40 /* Settings.swift */; };
+		C75F55F822133AA300C14A20 /* CompressionRateAlgorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75F55F722133AA300C14A20 /* CompressionRateAlgorithm.swift */; };
+		C75F55FB22134B6E00C14A20 /* slowDown.m4a in Resources */ = {isa = PBXBuildFile; fileRef = C75F55F922134B6E00C14A20 /* slowDown.m4a */; };
+		C75F55FC22134B6E00C14A20 /* speedUp.m4a in Resources */ = {isa = PBXBuildFile; fileRef = C75F55FA22134B6E00C14A20 /* speedUp.m4a */; };
+		C75F55FE22134B7600C14A20 /* goodPace.m4a in Resources */ = {isa = PBXBuildFile; fileRef = C75F55FD22134B7600C14A20 /* goodPace.m4a */; };
+		C75FEA84225513CA007460E3 /* CompressionDepthAlgorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75FEA83225513CA007460E3 /* CompressionDepthAlgorithm.swift */; };
+		C75FEA8822551AFF007460E3 /* goodPresses.m4a in Resources */ = {isa = PBXBuildFile; fileRef = C75FEA8522551AFF007460E3 /* goodPresses.m4a */; };
+		C75FEA8922551AFF007460E3 /* pressSofter.m4a in Resources */ = {isa = PBXBuildFile; fileRef = C75FEA8622551AFF007460E3 /* pressSofter.m4a */; };
+		C75FEA8A22551AFF007460E3 /* pressHarder.m4a in Resources */ = {isa = PBXBuildFile; fileRef = C75FEA8722551AFF007460E3 /* pressHarder.m4a */; };
+		C75FEA8C22552824007460E3 /* SoundGuidance.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75FEA8B22552824007460E3 /* SoundGuidance.swift */; };
+		C75FEA8E225530F6007460E3 /* HapticGuidance.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75FEA8D225530F6007460E3 /* HapticGuidance.swift */; };
 		C7CC781A220C48E500B50870 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CC7819220C48E500B50870 /* AppDelegate.swift */; };
 		C7CC781C220C48E500B50870 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CC781B220C48E500B50870 /* ViewController.swift */; };
 		C7CC781F220C48E500B50870 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7CC781D220C48E500B50870 /* Main.storyboard */; };
 		C7CC7821220C48E600B50870 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7CC7820220C48E600B50870 /* Assets.xcassets */; };
 		C7CC7824220C48E600B50870 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7CC7822220C48E600B50870 /* LaunchScreen.storyboard */; };
+		C7CC782C220C4ACA00B50870 /* GuidanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CC782B220C4ACA00B50870 /* GuidanceViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C740168E22553B2E00F67B40 /* VisualGuidance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = VisualGuidance.swift; path = HapticCPR/Models/VisualGuidance.swift; sourceTree = SOURCE_ROOT; };
+		C740169222556B7000F67B40 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		C740169622556C1E00F67B40 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		C75F55F722133AA300C14A20 /* CompressionRateAlgorithm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompressionRateAlgorithm.swift; sourceTree = "<group>"; };
+		C75F55F922134B6E00C14A20 /* slowDown.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = slowDown.m4a; sourceTree = "<group>"; };
+		C75F55FA22134B6E00C14A20 /* speedUp.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = speedUp.m4a; sourceTree = "<group>"; };
+		C75F55FD22134B7600C14A20 /* goodPace.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = goodPace.m4a; sourceTree = "<group>"; };
+		C75FEA83225513CA007460E3 /* CompressionDepthAlgorithm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CompressionDepthAlgorithm.swift; path = HapticCPR/Models/CompressionDepthAlgorithm.swift; sourceTree = SOURCE_ROOT; };
+		C75FEA8522551AFF007460E3 /* goodPresses.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = goodPresses.m4a; sourceTree = "<group>"; };
+		C75FEA8622551AFF007460E3 /* pressSofter.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = pressSofter.m4a; sourceTree = "<group>"; };
+		C75FEA8722551AFF007460E3 /* pressHarder.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = pressHarder.m4a; sourceTree = "<group>"; };
+		C75FEA8B22552824007460E3 /* SoundGuidance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundGuidance.swift; sourceTree = "<group>"; };
+		C75FEA8D225530F6007460E3 /* HapticGuidance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticGuidance.swift; sourceTree = "<group>"; };
 		C7CC7816220C48E500B50870 /* HapticCPR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HapticCPR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7CC7819220C48E500B50870 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C7CC781B220C48E500B50870 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +49,7 @@
 		C7CC7820220C48E600B50870 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C7CC7823220C48E600B50870 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C7CC7825220C48E600B50870 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7CC782B220C4ACA00B50870 /* GuidanceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuidanceViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +63,61 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C75F55F622133A8000C14A20 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C75FEA83225513CA007460E3 /* CompressionDepthAlgorithm.swift */,
+				C75F55F722133AA300C14A20 /* CompressionRateAlgorithm.swift */,
+				C75FEA8B22552824007460E3 /* SoundGuidance.swift */,
+				C75FEA8D225530F6007460E3 /* HapticGuidance.swift */,
+				C740168E22553B2E00F67B40 /* VisualGuidance.swift */,
+				C740169622556C1E00F67B40 /* Settings.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C75F5602221352B900C14A20 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C7CC7822220C48E600B50870 /* LaunchScreen.storyboard */,
+				C7CC781D220C48E500B50870 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C75F56032213546000C14A20 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C7CC7819220C48E500B50870 /* AppDelegate.swift */,
+				C7CC781B220C48E500B50870 /* ViewController.swift */,
+				C7CC782B220C4ACA00B50870 /* GuidanceViewController.swift */,
+				C740169222556B7000F67B40 /* SettingsViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C75F5604221354F100C14A20 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C7CC7820220C48E600B50870 /* Assets.xcassets */,
+				C7CC7825220C48E600B50870 /* Info.plist */,
+			);
+			path = "Support Files";
+			sourceTree = "<group>";
+		};
+		C75F56052213550400C14A20 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C75FEA8522551AFF007460E3 /* goodPresses.m4a */,
+				C75FEA8722551AFF007460E3 /* pressHarder.m4a */,
+				C75FEA8622551AFF007460E3 /* pressSofter.m4a */,
+				C75F55F922134B6E00C14A20 /* slowDown.m4a */,
+				C75F55FA22134B6E00C14A20 /* speedUp.m4a */,
+				C75F55FD22134B7600C14A20 /* goodPace.m4a */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		C7CC780D220C48E500B50870 = {
 			isa = PBXGroup;
 			children = (
@@ -54,12 +137,11 @@
 		C7CC7818220C48E500B50870 /* HapticCPR */ = {
 			isa = PBXGroup;
 			children = (
-				C7CC7819220C48E500B50870 /* AppDelegate.swift */,
-				C7CC781B220C48E500B50870 /* ViewController.swift */,
-				C7CC781D220C48E500B50870 /* Main.storyboard */,
-				C7CC7820220C48E600B50870 /* Assets.xcassets */,
-				C7CC7822220C48E600B50870 /* LaunchScreen.storyboard */,
-				C7CC7825220C48E600B50870 /* Info.plist */,
+				C75F55F622133A8000C14A20 /* Models */,
+				C75F5602221352B900C14A20 /* Views */,
+				C75F56032213546000C14A20 /* Controllers */,
+				C75F5604221354F100C14A20 /* Support Files */,
+				C75F56052213550400C14A20 /* Resources */,
 			);
 			path = HapticCPR;
 			sourceTree = "<group>";
@@ -122,9 +204,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C75F55FE22134B7600C14A20 /* goodPace.m4a in Resources */,
+				C75F55FC22134B6E00C14A20 /* speedUp.m4a in Resources */,
 				C7CC7824220C48E600B50870 /* LaunchScreen.storyboard in Resources */,
+				C75F55FB22134B6E00C14A20 /* slowDown.m4a in Resources */,
 				C7CC7821220C48E600B50870 /* Assets.xcassets in Resources */,
 				C7CC781F220C48E500B50870 /* Main.storyboard in Resources */,
+				C75FEA8A22551AFF007460E3 /* pressHarder.m4a in Resources */,
+				C75FEA8822551AFF007460E3 /* goodPresses.m4a in Resources */,
+				C75FEA8922551AFF007460E3 /* pressSofter.m4a in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,7 +223,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C75FEA8C22552824007460E3 /* SoundGuidance.swift in Sources */,
+				C7CC782C220C4ACA00B50870 /* GuidanceViewController.swift in Sources */,
 				C7CC781C220C48E500B50870 /* ViewController.swift in Sources */,
+				C740169322556B7000F67B40 /* SettingsViewController.swift in Sources */,
+				C740169722556C1E00F67B40 /* Settings.swift in Sources */,
+				C740168F22553B2E00F67B40 /* VisualGuidance.swift in Sources */,
+				C75FEA8E225530F6007460E3 /* HapticGuidance.swift in Sources */,
+				C75FEA84225513CA007460E3 /* CompressionDepthAlgorithm.swift in Sources */,
+				C75F55F822133AA300C14A20 /* CompressionRateAlgorithm.swift in Sources */,
 				C7CC781A220C48E500B50870 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,15 +378,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3P7P9CY7PF;
-				INFOPLIST_FILE = HapticCPR/Info.plist;
+				INFOPLIST_FILE = "HapticCPR/Support Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.tljurek.HapticCPR;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -300,15 +398,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3P7P9CY7PF;
-				INFOPLIST_FILE = HapticCPR/Info.plist;
+				INFOPLIST_FILE = "HapticCPR/Support Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.tljurek.HapticCPR;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
